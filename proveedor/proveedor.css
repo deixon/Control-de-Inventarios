@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    font-family:"Helveticah", Arial;
+    font-size: 30px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    width: 100%;
+    margin: 20px auto;
+    height: 600px;
+    justify-content: space-evenly;
+    order: unset; 
+    
+}
+header{
+    width: 100%;
+    height: 650px;
+    background: #acb6e5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(169, 97%, 76%, 0.589), hsla(229, 51%, 79%, 0.726)), url(../img/imagen5.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+h1{
+    color: rgba(34, 66, 114, 0.589);
+    text-align: center;
+    padding: 50px;
+}
+
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+    max-width: 1000px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    margin: 0.5rem 0;
+}
+
+.field label{
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: #696969;
+}
+
+.field input{
+    font-size: 1.1rem;
+    height: 2.2rem;
+    padding-left: o.5rem;
+    border: 2px solid #696969;
+}
+
+.botton{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inicio{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 20px;
+    background: rgb(119, 223, 71);
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 0px rgb(198, 219, 188);
+    width: 90px;
+} 
+
+
+
+/*footer*/
+
+footer{
+    background: rgb(29, 65, 95);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;   
+}
+
+.container-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;  
+}
+
+.content-foo{
+    text-align: center;   
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+}
